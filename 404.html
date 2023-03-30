@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four OH Four</title>
+  </head>
+
+  <body>
+    <div class="center">
+      <h1>Four OH Four!</h1>
+      <p>
+        Looks like you hit the 404 page, This means that this page does not
+        exist.
+      </p>
+      <p>Try to not be too curious next time, <a href="/">okay?</a></p>
+    </div>
+  </body>
+
+  <style>
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    h1,
+    p {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      height: 100%;
+    }
+
+    body {
+      background: hsla(0, 0%, 39%, 1);
+      background: -moz-radial-gradient(
+        circle,
+        hsla(0, 0%, 39%, 1) 0%,
+        hsla(240, 9%, 13%, 1) 100%
+      );
+      background: -webkit-radial-gradient(
+        circle,
+        hsla(0, 0%, 39%, 1) 0%,
+        hsla(240, 9%, 13%, 1) 100%
+      );
+      background: radial-gradient(
+        circle,
+        hsla(0, 0%, 39%, 1) 0%,
+        hsla(240, 9%, 13%, 1) 100%
+      );
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#636363", endColorstr="#1F1F25", GradientType=1 );
+      background-attachment: fixed;
+    }
+
+    a:link {
+      color: #ff6767;
+    }
+
+    a:visited {
+      color: #80e5ff;
+    }
+
+    a:hover {
+      animation-name: hoveranim;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes hoveranim {
+      from {
+        color: currentColor;
+      }
+      to {
+        color: #fad459;
+      }
+    }
+  </style>
+</html>
