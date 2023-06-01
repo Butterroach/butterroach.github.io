@@ -1,0 +1,19 @@
+/* ok tbh this design isn't really good for colorblinds (especially tritanopia and achromatopsia) */
+/* i should fix it later */
+
+body {
+  background-color: #1e1e1e; /* haha i stole this color */
+  color: white;
+}
+
+a:link {
+  color: #00bcd4;
+}
+
+a:visited {
+  color: #00da75; /* i stole this color too haha */
+}
+
+#cont1 {
+  padding-top: 39%;
+}
